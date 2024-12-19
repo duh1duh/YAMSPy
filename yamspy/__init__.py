@@ -946,7 +946,7 @@ class MSPy:
                 dataHandler = self.receive_msg()
                 self.process_recv_data(dataHandler)
     
-        print(self.CONFIG)
+        # print(self.CONFIG)
 
     def fast_read_altitude(self):
         # Request altitude
